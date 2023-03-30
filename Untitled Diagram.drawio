@@ -1,1 +1,95 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T20:43:48.379Z" agent="5.0 (X11)" version="21.0.6" etag="PzqYKsTcCMzlnb40swH1" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-30T21:24:12.054Z" agent="5.0 (X11)" etag="qi7TcgauV0K2sp5fNNQV" version="21.0.6" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2185" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="iFDMRpciIEieuzGn_sB7-1" value="key.degree = 우회전" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="460" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iFDMRpciIEieuzGn_sB7-2" value="현재 gps좌표 인식" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-105" y="90" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iFDMRpciIEieuzGn_sB7-3" value="목표 gps좌표 까지 bearing 계산" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-105" y="150" width="205" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iFDMRpciIEieuzGn_sB7-4" value="&lt;span class=&quot;pl-s1&quot;&gt;&lt;/span&gt;&lt;span class=&quot;pl-s1&quot;&gt;bear_yaw_cross&lt;/span&gt;=bearing-yaw로 구하기" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-140" y="280" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iFDMRpciIEieuzGn_sB7-5" value="&lt;div&gt;160 &lt;span class=&quot;pl-c1&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;pl-s1&quot;&gt;&lt;span data-hydro-click-hmac=&quot;8f89f20d8da47ea0347ee5db099d76492b348ef71c6a21fd7396911c0262b30c&quot; data-hydro-click=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;code_navigation.click_on_symbol&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;action&amp;quot;:&amp;quot;click_on_symbol&amp;quot;,&amp;quot;repository_id&amp;quot;:617866568,&amp;quot;ref&amp;quot;:&amp;quot;main&amp;quot;,&amp;quot;language&amp;quot;:&amp;quot;Python&amp;quot;,&amp;quot;backend&amp;quot;:&amp;quot;ALEPH_PRECISE&amp;quot;,&amp;quot;code_nav_context&amp;quot;:&amp;quot;BLOB_VIEW&amp;quot;,&amp;quot;retry_backend&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;cross_repo_results_included&amp;quot;:&amp;quot;CROSS_REPO_ENABLED&amp;quot;,&amp;quot;in_repo_result_count&amp;quot;:1,&amp;quot;cross_repo_result_count&amp;quot;:0,&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/jimin11111111/imu_yaw/find-definition?q=bear_yaw_cross&amp;amp;blob_path=jimin_gps.py&amp;amp;ref=main&amp;amp;language=Python&amp;amp;row=175&amp;amp;col=22&amp;amp;code_nav_context=BLOB_VIEW&amp;quot;,&amp;quot;user_id&amp;quot;:109198149}}&quot; class=&quot;pl-token&quot;&gt;bear_yaw_cross&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;360&lt;/span&gt; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;pl-c1&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;160&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;pl-s1&quot;&gt;&lt;span data-hydro-click-hmac=&quot;e4c9dcd602380bd46fc241a7dc5f47b5c4deda3da8e328b426b47ffef57f3903&quot; data-hydro-click=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;code_navigation.click_on_symbol&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;action&amp;quot;:&amp;quot;click_on_symbol&amp;quot;,&amp;quot;repository_id&amp;quot;:617866568,&amp;quot;ref&amp;quot;:&amp;quot;main&amp;quot;,&amp;quot;language&amp;quot;:&amp;quot;Python&amp;quot;,&amp;quot;backend&amp;quot;:&amp;quot;ALEPH_PRECISE&amp;quot;,&amp;quot;code_nav_context&amp;quot;:&amp;quot;BLOB_VIEW&amp;quot;,&amp;quot;retry_backend&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;cross_repo_results_included&amp;quot;:&amp;quot;CROSS_REPO_ENABLED&amp;quot;,&amp;quot;in_repo_result_count&amp;quot;:1,&amp;quot;cross_repo_result_count&amp;quot;:0,&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/jimin11111111/imu_yaw/find-definition?q=bear_yaw_cross&amp;amp;blob_path=jimin_gps.py&amp;amp;ref=main&amp;amp;language=Python&amp;amp;row=175&amp;amp;col=58&amp;amp;code_nav_context=BLOB_VIEW&amp;quot;,&amp;quot;user_id&amp;quot;:109198149}}&quot; class=&quot;pl-token&quot;&gt;bear_yaw_cross&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;20&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-450" y="400" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iFDMRpciIEieuzGn_sB7-6" value="key.degree = 좌회전" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-450" y="460" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iFDMRpciIEieuzGn_sB7-7" value="현재 배의 yaw값 불러오기" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-102.5" y="210" width="205" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iFDMRpciIEieuzGn_sB7-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="130" as="sourcePoint" />
+            <mxPoint y="150" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFDMRpciIEieuzGn_sB7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1" y="190" as="sourcePoint" />
+            <mxPoint x="-1" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFDMRpciIEieuzGn_sB7-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iFDMRpciIEieuzGn_sB7-7" target="iFDMRpciIEieuzGn_sB7-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="350" as="sourcePoint" />
+            <mxPoint x="140" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFDMRpciIEieuzGn_sB7-18" value="&lt;div&gt;20 &lt;span class=&quot;pl-c1&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;pl-s1&quot;&gt;&lt;span data-hydro-click-hmac=&quot;cb42d81fd50527b310aa7f85a9bd4c5b63a12edb2c052e033861bb77036ddcb7&quot; data-hydro-click=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;code_navigation.click_on_symbol&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;action&amp;quot;:&amp;quot;click_on_symbol&amp;quot;,&amp;quot;repository_id&amp;quot;:617866568,&amp;quot;ref&amp;quot;:&amp;quot;main&amp;quot;,&amp;quot;language&amp;quot;:&amp;quot;Python&amp;quot;,&amp;quot;backend&amp;quot;:&amp;quot;ALEPH_PRECISE&amp;quot;,&amp;quot;code_nav_context&amp;quot;:&amp;quot;BLOB_VIEW&amp;quot;,&amp;quot;retry_backend&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;cross_repo_results_included&amp;quot;:&amp;quot;CROSS_REPO_ENABLED&amp;quot;,&amp;quot;in_repo_result_count&amp;quot;:1,&amp;quot;cross_repo_result_count&amp;quot;:0,&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/jimin11111111/imu_yaw/find-definition?q=self&amp;amp;blob_path=jimin_gps.py&amp;amp;ref=main&amp;amp;language=Python&amp;amp;row=177&amp;amp;col=18&amp;amp;code_nav_context=BLOB_VIEW&amp;quot;,&amp;quot;user_id&amp;quot;:109198149}}&quot; class=&quot;pl-token&quot;&gt;self&lt;/span&gt;&lt;/span&gt;.&lt;span class=&quot;pl-s1&quot;&gt;bear_yaw_cross&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;160&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;span class=&quot;pl-c1&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;360&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;pl-s1&quot;&gt;&lt;span data-hydro-click-hmac=&quot;c88cafa9be7079c8267dc83f1bfec47d904b1b322119b945ae1520370715888c&quot; data-hydro-click=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;code_navigation.click_on_symbol&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;action&amp;quot;:&amp;quot;click_on_symbol&amp;quot;,&amp;quot;repository_id&amp;quot;:617866568,&amp;quot;ref&amp;quot;:&amp;quot;main&amp;quot;,&amp;quot;language&amp;quot;:&amp;quot;Python&amp;quot;,&amp;quot;backend&amp;quot;:&amp;quot;ALEPH_PRECISE&amp;quot;,&amp;quot;code_nav_context&amp;quot;:&amp;quot;BLOB_VIEW&amp;quot;,&amp;quot;retry_backend&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;cross_repo_results_included&amp;quot;:&amp;quot;CROSS_REPO_ENABLED&amp;quot;,&amp;quot;in_repo_result_count&amp;quot;:1,&amp;quot;cross_repo_result_count&amp;quot;:0,&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/jimin11111111/imu_yaw/find-definition?q=self&amp;amp;blob_path=jimin_gps.py&amp;amp;ref=main&amp;amp;language=Python&amp;amp;row=177&amp;amp;col=54&amp;amp;code_nav_context=BLOB_VIEW&amp;quot;,&amp;quot;user_id&amp;quot;:109198149}}&quot; class=&quot;pl-token&quot;&gt;self&lt;/span&gt;&lt;/span&gt;.&lt;span class=&quot;pl-s1&quot;&gt;bear_yaw_cross&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;160&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="400" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iFDMRpciIEieuzGn_sB7-20" value="&lt;div&gt;-20 &lt;span class=&quot;pl-c1&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;pl-s1&quot;&gt;&lt;span data-hydro-click-hmac=&quot;cb42d81fd50527b310aa7f85a9bd4c5b63a12edb2c052e033861bb77036ddcb7&quot; data-hydro-click=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;code_navigation.click_on_symbol&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;action&amp;quot;:&amp;quot;click_on_symbol&amp;quot;,&amp;quot;repository_id&amp;quot;:617866568,&amp;quot;ref&amp;quot;:&amp;quot;main&amp;quot;,&amp;quot;language&amp;quot;:&amp;quot;Python&amp;quot;,&amp;quot;backend&amp;quot;:&amp;quot;ALEPH_PRECISE&amp;quot;,&amp;quot;code_nav_context&amp;quot;:&amp;quot;BLOB_VIEW&amp;quot;,&amp;quot;retry_backend&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;cross_repo_results_included&amp;quot;:&amp;quot;CROSS_REPO_ENABLED&amp;quot;,&amp;quot;in_repo_result_count&amp;quot;:1,&amp;quot;cross_repo_result_count&amp;quot;:0,&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/jimin11111111/imu_yaw/find-definition?q=self&amp;amp;blob_path=jimin_gps.py&amp;amp;ref=main&amp;amp;language=Python&amp;amp;row=177&amp;amp;col=18&amp;amp;code_nav_context=BLOB_VIEW&amp;quot;,&amp;quot;user_id&amp;quot;:109198149}}&quot; class=&quot;pl-token&quot;&gt;self&lt;/span&gt;&lt;/span&gt;.&lt;span class=&quot;pl-s1&quot;&gt;bear_yaw_cross&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;&amp;lt;&lt;/span&gt;= 20&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-140" y="400" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iFDMRpciIEieuzGn_sB7-21" value="key.degree = 90 (전진)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-140" y="460" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iFDMRpciIEieuzGn_sB7-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iFDMRpciIEieuzGn_sB7-4" target="iFDMRpciIEieuzGn_sB7-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-220" y="370" as="sourcePoint" />
+            <mxPoint x="-40" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFDMRpciIEieuzGn_sB7-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iFDMRpciIEieuzGn_sB7-4" target="iFDMRpciIEieuzGn_sB7-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="370" as="sourcePoint" />
+            <mxPoint x="240" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFDMRpciIEieuzGn_sB7-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iFDMRpciIEieuzGn_sB7-5" target="iFDMRpciIEieuzGn_sB7-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="420" as="sourcePoint" />
+            <mxPoint x="-40" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFDMRpciIEieuzGn_sB7-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iFDMRpciIEieuzGn_sB7-18" target="iFDMRpciIEieuzGn_sB7-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="420" as="sourcePoint" />
+            <mxPoint x="240" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFDMRpciIEieuzGn_sB7-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="iFDMRpciIEieuzGn_sB7-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="360" as="sourcePoint" />
+            <mxPoint x="110" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFDMRpciIEieuzGn_sB7-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iFDMRpciIEieuzGn_sB7-20" target="iFDMRpciIEieuzGn_sB7-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="390" as="sourcePoint" />
+            <mxPoint x="110" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
